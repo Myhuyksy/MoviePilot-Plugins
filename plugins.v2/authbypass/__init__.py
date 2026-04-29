@@ -14,6 +14,7 @@ class AuthBypass(_PluginBase):
     plugin_name = "用户认证强制通过"
     plugin_desc = "强制设置用户认证级别为2，跳过站点认证检查，用于开发调试环境"
     plugin_order = 9999
+    plugin_version = "1.0.0"
 
     def __init__(self):
         super().__init__()
