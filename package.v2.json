@@ -1,4 +1,18 @@
 {
+  "authbypass": {
+    "name": "用户认证强制通过",
+    "description": "强制设置用户认证级别为2，跳过站点认证检查，用于开发调试环境。",
+    "labels": "认证,开发调试",
+    "version": "1.0.0",
+    "author": "Myhuyksy",
+    "level": 2,
+    "v2": true,
+    "history": {
+    "v1.0.0": "初始版本"
+        }
+    }
+}
+{
   "SiteStatistic": {
     "name": "站点数据统计",
     "description": "站点统计数据图表。",
